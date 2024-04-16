@@ -2,10 +2,10 @@ const myTemplate = `
 import 'package:habit/life/widget/base_view_model.dart';
 import 'package:module_base/common/colors.dart';
 
-class TempVm extends BaseViewModel {
-  TempVm(super.model);
+class ExampleViewModel extends BaseViewModel {
+  ExampleViewModel(super.model);
 
-  initData(){
+  initData() {
     setAppBarTitle('Temp');
     setAppBarTitleColor(color_2A2F3C);
     setAppBarBackIconColor(color_2A2F3C);
@@ -13,6 +13,6 @@ class TempVm extends BaseViewModel {
   }
 }
 
-    `
+  `
 
     module.exports = myTemplate

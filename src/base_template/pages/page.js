@@ -1,19 +1,20 @@
 const myTemplate = `
 import 'package:flutter/cupertino.dart';
 import 'package:habit/life/base/view_model_provider.dart';
-import 'package:habit/life/widget/base/base_scaffold.dart';
 import 'package:habit/life/widget/base/base_appbar_widget.dart';
-import '../model/abc_model.dart';
-import '../viewmodel/abc_viewmodel.dart';
+import 'package:habit/life/widget/base/base_scaffold.dart';
 
-class TempPage extends StatefulWidget {
-  const TempPage({super.key});
+import '../model/example_model.dart';
+import '../viewmodel/example_viewmodel.dart';
+
+class ExamplePage extends StatefulWidget {
+  const ExamplePage({super.key});
 
   @override
-  State<TempPage> createState() => _TempPageState();
+  State<ExamplePage> createState() => _ExamplePageState();
 }
 
-class _TempPageState extends State<TempPage> {
+class _ExamplePageState extends State<ExamplePage> {
   @override
   void initState() {
     super.initState();
@@ -22,7 +23,7 @@ class _TempPageState extends State<TempPage> {
   @override
   Widget build(BuildContext context) {
     return ViewModelProvider(
-      create: (create) => TempVm(TempModel()),
+      create: (create) => ExampleViewModel(ExampleModel()),
       initViewModel: (context, viewModel) {
         viewModel.initData();
       },
@@ -37,7 +38,6 @@ class _TempPageState extends State<TempPage> {
     );
   }
 }
-
     `
 
     module.exports = myTemplate
