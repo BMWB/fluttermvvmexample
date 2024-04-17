@@ -32,17 +32,17 @@ ViewModelProvider 在兼容现有功能基础刷，实现最小改动、不需�
 
 1. 安装
 
-![avatar](./res/1.png)
+![avatar](https://github.com/BMWB/fluttermvvmexample/blob/main/res/1.png)
 
 2. 打开目标项目的工作区
 
-![avatar](./res/2.png)
+![avatar](https://github.com/BMWB/fluttermvvmexample/blob/main/res/2.png)
 
 2. 选择模版
-![avatar](./res/3.png)
+![avatar](https://github.com/BMWB/fluttermvvmexample/blob/main/res/3.png)
 
 3. 输入类名并按回车键
-![avatar](./res/4.png)
+![avatar](https://github.com/BMWB/fluttermvvmexample/blob/main/res/4.png)
 
 4. 插件将会在指定目录下创建文件和文件夹结构，并替换模板文件中的占位符
-![avatar](./res/5.png)
+![avatar](https://github.com/BMWB/fluttermvvmexample/blob/main/res/5.png)
